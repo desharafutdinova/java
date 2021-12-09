@@ -13,7 +13,7 @@ public class Q221 {
         colors.add("red");
         colors.add("yellow");
         colors.remove(2);
-        colors.add(3, "cyan"); // this method only works with indexes which exist or with index which is the next after the last one (it should be equal to the size of list)
+        colors.add(3, "cyan");
 
         System.out.println(colors);
 
@@ -30,10 +30,14 @@ D. An IndexOutOfBoundsException is thrown at runtime.
 
  */
 
-// Answer is B
-
 /*
 
-
+Explanation:
+add(String) method add element to the end of the ArrayList.
+remove(int) remove element from the position with the index which was put as a parameter.
+add(int, String) method only works with indexes which exist in ArrayList or with index which is the next after the last one (it should be equal to the size of list)
 
  */
+
+// Answer is B
+

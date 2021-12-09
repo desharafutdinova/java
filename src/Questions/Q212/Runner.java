@@ -30,9 +30,7 @@ D. true:true:false
 
 Explanation:
 obj is a parent object with a parent reference P1, it cannot be an instance of a child P2;
-obj2 is an object of the child with the child reference P2 which extends parent P1. Since there is inheritance obj2 is both instance of P1 and P2
-        obj3 instanceof I1;
-
+obj2 is an object of the child with the child reference P2 which extends parent P1. Since there is inheritance obj2 is both instance of P1 and P2. Same logic applies for the implemented Interface.
 
  */
 

@@ -36,6 +36,7 @@ D. A NullPointerException is thrown at runtime.
 /*
 
 Explanation:
+By java Q214 1 we only pass one element to the String [] args, which means the length is 1. since 1>=min is true, method checkLimit() returns true and if  statement executes first print statement.
 
  */
 

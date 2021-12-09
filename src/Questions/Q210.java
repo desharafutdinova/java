@@ -18,7 +18,7 @@ public class Q210 {
         System.out.println(s1);
 
         // C
-//        Integer s2 = p.test(100); // test method returns boolean
+//        Integer s2 = p.test(100);
 //        if (s2 == 1) {
 //            System.out.println("false");
 //        } else {
@@ -43,7 +43,9 @@ D.
 /*
 
 Explanation:
-tbd Predicate class doesn't have "apply" method
+A and D are incorrect because Predicate class doesn't have "apply" method.
+b is correct because method test() of the predicate class accepts a parameter and evaluates the predicate(condition represented by lambda) on the value passed and then returns a boolean value. Since 100 % 2 = 0, the boolean returned is true;
+C is incorrect because test() method returns boolean, but it's assigned to an Integer
 
  */
 

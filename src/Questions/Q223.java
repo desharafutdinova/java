@@ -23,11 +23,11 @@ D. Compilation fails.
 
  */
 
-// Answer is A
-
 /*
 
 Explanation:
 since the condition inside while is (i < arr.length + 1), once i reaches the last index which is 3, prints the last element, gets increased by 1, checks the condition and gets to the next loop in will get out of bound, because you array doesn't have index = 4;
 
  */
+
+// Answer is A
