@@ -42,3 +42,5 @@ C
 D
 
  */
+
+// Answer is B

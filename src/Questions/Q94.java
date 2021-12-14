@@ -10,7 +10,7 @@ class Person {
     }
 
     public Person (String name, int age){
-//        Person(name);  //line 2
+//        Person(name) {};  //line 2
         setAge(age);
     }
 

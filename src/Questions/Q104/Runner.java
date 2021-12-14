@@ -35,6 +35,8 @@ B. BaseDerivedB
 C. DerivedBDerivedB
 D. DerivedBDerivedA
 E. A ClassCastException is thrown at runtime
+F. DerivedADerivedB
 
  */
 
+// Answer is F
