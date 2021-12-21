@@ -7,6 +7,7 @@ public class Q210 {
 
         Predicate<Integer> p = (n) -> n%2 == 0;
 
+
         // insert code here
 
         // A
@@ -44,7 +45,7 @@ D.
 
 Explanation:
 A and D are incorrect because Predicate class doesn't have "apply" method.
-b is correct because method test() of the predicate class accepts a parameter and evaluates the predicate(condition represented by lambda) on the value passed and then returns a boolean value. Since 100 % 2 = 0, the boolean returned is true;
+b is correct because method test() of the predicate class accepts a parameter and evaluates the predicate(condition represented by lambda) on the value passed and then returns a boolean value. Since 100 % 2 = 0, the returned boolean is true;
 C is incorrect because test() method returns boolean, but it's assigned to an Integer
 
  */
